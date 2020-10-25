@@ -26,7 +26,7 @@ class _LoginPageState extends State<LoginPage> {
           child: new Column(
             children: [
               new Image(
-                image: AssetImage('assets/logo.png'),
+                image: AssetImage('assets/hd_logo.PNG'),
               ),
               new Form(
                 child: new Column(

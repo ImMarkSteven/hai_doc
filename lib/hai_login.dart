@@ -8,8 +8,8 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
 
-  String _username;
-  String _password;
+  //String _username;
+  //String _password;
 
   void validateAndSave() {
 
@@ -26,7 +26,7 @@ class _LoginPageState extends State<LoginPage> {
           child: new Column(
             children: [
               new Image(
-                image: NetworkImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+                image: AssetImage('assets/logo.png'),
               ),
               new Form(
                 child: new Column(
